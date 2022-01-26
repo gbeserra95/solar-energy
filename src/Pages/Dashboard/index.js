@@ -4,14 +4,13 @@ import MainSection from '../../components/MainSection'
 import Chart from '../../components/Chart'
 import Card from '../../components/Card'
 
-import { Title, CardsContainer } from './styles'
+import { CardsContainer } from './styles'
 
 function Dashboard() {
   return (
     <Container>
       <Menu current="dashboard"></Menu>
-      <MainSection>
-        <Title>Dashboard</Title>
+      <MainSection title="Dashboard">
         <CardsContainer>
           <Card title="Total unidades" value="60" />
           <Card title="Unidades ativas" value="16" />

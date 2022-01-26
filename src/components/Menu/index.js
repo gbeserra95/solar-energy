@@ -10,7 +10,7 @@ const MENU_OPTIONS = [
     icon: 'MdPieChart'
   },
   {
-    value: 'unidade',
+    value: 'unidades',
     text: 'Unidade consumidora',
     icon: 'MdOutlineAreaChart'
   },

@@ -11,7 +11,7 @@ function MenuItem({ current, props }) {
     >
       {props.value === 'dashboard' ? (
         <MdPieChart size="36" />
-      ) : props.value === 'unidade' ? (
+      ) : props.value === 'unidades' ? (
         <MdOutlineAreaChart size="48" />
       ) : (
         <MdSettings size="48" />

@@ -1,7 +1,12 @@
-import { DefaultMain } from './styles'
+import { DefaultMain, Title } from './styles'
 
-function MainSection({ children }) {
-  return <DefaultMain>{children}</DefaultMain>
+function MainSection({ title, children }) {
+  return (
+    <DefaultMain>
+      <Title>{title}</Title>
+      {children}
+    </DefaultMain>
+  )
 }
 
 export default MainSection
