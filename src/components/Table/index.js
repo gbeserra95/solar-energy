@@ -1,6 +1,6 @@
 import { Container, SubTitle, TableContainer, THeader, TBody } from './styles'
 
-function Table() {
+function Table({ children }) {
   return (
     <Container>
       <SubTitle>Lista de unidades</SubTitle>
@@ -16,7 +16,7 @@ function Table() {
             <th></th>
           </tr>
         </THeader>
-        <TBody></TBody>
+        <TBody>{children}</TBody>
       </TableContainer>
     </Container>
   )

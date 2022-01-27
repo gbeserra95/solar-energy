@@ -9,5 +9,6 @@ export const ButtonContainer = styled.button`
   border-radius: 4px;
   background-color: ${props => props.bg};
   color: white;
+  width: 100%;
   cursor: pointer;
 `

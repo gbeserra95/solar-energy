@@ -34,5 +34,3 @@ export const THeader = styled.thead`
 `
 
 export const TBody = styled.tbody``
-
-// Container, Table, THeader, TBody
