@@ -1,8 +1,8 @@
 import { TextContainer } from './styles'
 
-function Text({ weight, size, children }) {
+function Text({ weight, size, color, children }) {
   return (
-    <TextContainer weight={weight} size={size}>
+    <TextContainer weight={weight} size={size} color={color}>
       {children}
     </TextContainer>
   )

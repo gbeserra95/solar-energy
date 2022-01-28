@@ -12,4 +12,9 @@ export const ButtonContainer = styled.button`
   width: 100%;
   font-weight: 700;
   cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.8);
+    transition: 0.2s;
+  }
 `

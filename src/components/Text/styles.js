@@ -6,4 +6,5 @@ export const TextContainer = styled.div`
   align-items: center;
   font-weight: ${props => props.weight};
   font-size: ${props => props.size};
+  color: ${props => props.color};
 `
