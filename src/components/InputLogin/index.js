@@ -4,7 +4,7 @@ import { InputContainer, InputText } from './styles'
 
 import { MdOutlineEmail, MdLockOutline } from 'react-icons/md'
 
-function Input({ type, ...otherProps }) {
+function InputLogin({ type, ...otherProps }) {
   return (
     <InputContainer>
       {type === 'email' ? (
@@ -17,4 +17,4 @@ function Input({ type, ...otherProps }) {
   )
 }
 
-export default Input
+export default InputLogin

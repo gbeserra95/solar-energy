@@ -1,7 +1,7 @@
 import Container from '../../components/Container'
 import Text from '../../components/Text'
 import Logo from '../../components/Logo'
-import Input from '../../components/Input'
+import InputLogin from '../../components/InputLogin'
 import Button from '../../components/Button'
 
 import {
@@ -25,8 +25,8 @@ function Login() {
             </Text>
           </LogoContainer>
           <Form>
-            <Input type="email" placeholder="E-mail" />
-            <Input type="password" placeholder="Senha" />
+            <InputLogin type="email" placeholder="E-mail" />
+            <InputLogin type="password" placeholder="Senha" />
             <Button bg="rgba(76, 188, 154, 1)">Entrar</Button>
           </Form>
         </LoginContainer>

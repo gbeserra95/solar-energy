@@ -10,5 +10,6 @@ export const ButtonContainer = styled.button`
   background-color: ${props => props.bg};
   color: white;
   width: 100%;
+  font-weight: 700;
   cursor: pointer;
 `

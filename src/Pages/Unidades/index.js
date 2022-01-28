@@ -3,6 +3,9 @@ import Menu from '../../components/Menu'
 import MainSection from '../../components/MainSection'
 import Table from '../../components/Table'
 import TableRow from '../../components/TableRow'
+import Button from '../../components/Button'
+
+import { ButtonContainer } from './styles'
 
 function Unidades() {
   return (
@@ -25,6 +28,9 @@ function Unidades() {
             model="100W"
           />
         </Table>
+        <ButtonContainer>
+          <Button bg="rgba(76, 93, 241, 1)">Nova unidade</Button>
+        </ButtonContainer>
       </MainSection>
     </Container>
   )

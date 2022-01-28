@@ -15,22 +15,12 @@ export const SubTitle = styled.h2`
   color: rgba(55, 69, 87, 1);
 `
 
-export const TableContainer = styled.table`
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1rem;
   width: 100%;
   padding: 0.75rem;
-  border-radius: 10px;
   margin: 0.75rem 0;
-  box-shadow: 0px 8px 10px #e8e8e8, -10px 8px 15px #e8e8e8,
-    10px 8px 15px #e8e8e8; ;
 `
-
-export const THeader = styled.thead`
-  th {
-    color: rgba(37, 40, 43, 1);
-    font-weight: 700;
-    text-align: left;
-    padding: 0.75rem;
-  }
-`
-
-export const TBody = styled.tbody``

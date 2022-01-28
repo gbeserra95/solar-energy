@@ -15,8 +15,8 @@ const MENU_OPTIONS = [
     icon: 'MdOutlineAreaChart'
   },
   {
-    value: 'cadastro',
-    text: 'Cadastro de energia gerada',
+    value: 'consumo',
+    text: 'Lançamento de geração mensal',
     icon: 'MdSettings'
   }
 ]
