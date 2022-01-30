@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import Container from '../../components/Container'
 import Menu from '../../components/Menu'
 import MainSection from '../../components/MainSection'
-import Chart from '../../components/Chart'
+import Graph from '../../components/Graph'
 import Card from '../../components/Card'
 
 // Styled Components
@@ -59,7 +59,7 @@ function Dashboard() {
           <Card title="Unidades inativas" value={inactive} />
           <Card title="Média de energia" value={`${avgConsumption} kW`} />
         </CardsContainer>
-        <Chart />
+        <Graph />
       </MainSection>
     </Container>
   )

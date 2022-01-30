@@ -1,6 +1,6 @@
-import React from 'react'
-
+// Styled-components
 import { ItemContainer } from './styles'
+// React-Icons
 import { MdPieChart, MdOutlineAreaChart, MdSettings } from 'react-icons/md'
 
 function MenuItem({ current, props }) {

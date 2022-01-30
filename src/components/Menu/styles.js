@@ -12,4 +12,8 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   list-style: none;
+
+  a {
+    text-decoration: none;
+  }
 `

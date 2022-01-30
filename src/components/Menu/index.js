@@ -1,8 +1,14 @@
+// Link
+import { Link } from 'react-router-dom'
+
+// Components
 import Logo from '../Logo'
 import MenuItem from '../MenuItem'
 
+// Styled-components
 import { MenuContainer, List } from './styles'
 
+// Menu options
 const MENU_OPTIONS = [
   {
     value: 'dashboard',
@@ -27,7 +33,9 @@ function Menu({ current }) {
       <Logo size="10rem" />
       <List>
         {MENU_OPTIONS.map(option => (
-          <MenuItem key={option.value} current={current} props={option} />
+          <Link key={option.value} to={`/${option.value}/`}>
+            <MenuItem key={option.value} current={current} props={option} />
+          </Link>
         ))}
       </List>
     </MenuContainer>

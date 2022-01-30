@@ -9,4 +9,9 @@ export const ItemContainer = styled.li`
   color: ${props => props.color};
   border-radius: 0.5rem;
   cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.8);
+    transition: 0.2s;
+  }
 `
