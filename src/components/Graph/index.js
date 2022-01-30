@@ -45,18 +45,19 @@ const OPTIONS = {
       }
     },
     y: {
-      position: 'right'
+      position: 'right',
+      min: 0,
+      suggestedMax: 100
     }
   }
 }
 
-function Graph() {
-  const labels = ['janeiro', 'junho', 'dezembro']
+function Graph({ labels, data }) {
   const myChart = {
-    labels,
+    labels: labels,
     datasets: [
       {
-        data: [100, 200, 500, 700, 1200, 655, 450, 122, 60, 21, 35, 200],
+        data: data,
         borderColor: 'rgba(33, 150, 243, 1)',
         borderWidth: 2,
         tension: 0.2

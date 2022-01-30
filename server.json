@@ -5,8 +5,8 @@
       {"id": 2, "idUnity": "243", "nickname": "Painel 22", "place": "Rua 125", "brand": "Aussie", "model": "100W", "active": "false"}
     ],  
     "geracoes": [
-      {"id": "156", "date": "02/2022", "consumption": 500},
+      {"id": "156", "date": "03/2022", "consumption": 500},
       {"id": "157", "date": "03/2022", "consumption": 800},
-      {"id": "1562", "date": "02/2022", "consumption": 700}
+      {"id": "1562", "date": "03/2022", "consumption": 700}
     ] 
 }
