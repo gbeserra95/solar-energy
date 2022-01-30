@@ -1,8 +1,11 @@
 // Chart libraries
+import { Chart, registerables } from 'chart.js'
 import { Line } from 'react-chartjs-2'
 
 // Styles-components
 import { ChartContainer } from './styles'
+
+Chart.register(...registerables)
 
 const OPTIONS = {
   responsive: true,
@@ -48,13 +51,14 @@ const OPTIONS = {
 }
 
 function Graph() {
-  const labels = ['janeiro', 'dezembro']
+  const labels = ['janeiro', 'junho', 'dezembro']
   const myChart = {
     labels,
     datasets: [
       {
         data: [100, 200, 500, 700, 1200, 655, 450, 122, 60, 21, 35, 200],
-        backgroundColor: 'rgba(33, 150, 243, 1)',
+        borderColor: 'rgba(33, 150, 243, 1)',
+        borderWidth: 2,
         tension: 0.2
       }
     ]
