@@ -1,3 +1,4 @@
+// Styled-component
 import { DefaultContainer } from './styles'
 
 function Container({ children }) {

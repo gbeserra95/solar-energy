@@ -23,4 +23,14 @@ export const Form = styled.form`
   width: 100%;
   padding: 0.75rem;
   margin: 0.75rem 0;
+  a {
+    text-decoration: none;
+  }
+`
+
+export const ButtonContainer = styled.div`
+  display: block;
+  float: left;
+  width: 15rem;
+  margin: 0.75rem 0;
 `

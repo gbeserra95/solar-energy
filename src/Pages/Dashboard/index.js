@@ -14,6 +14,8 @@ import { CardsContainer } from './styles'
 // Utils
 import { getPastMonths } from '../../utils/dateFunctions'
 import { getMonthlyConsumption } from '../../utils/consumptionFunction'
+import { getData } from '../../utils/apiFunctions'
+import { toast } from 'react-toastify'
 
 function Dashboard() {
   const [units, setUnits] = useState({})
@@ -21,20 +23,16 @@ function Dashboard() {
   const [active, setActive] = useState(0)
   const [inactive, setInactive] = useState(0)
   const [avgConsumption, setAvgConsumption] = useState(0)
-  const [error, setError] = useState(null)
 
   useEffect(() => {
     // Get data from json server
     async function handleData() {
       try {
         // Get data from /unidades
-        let response = await fetch('http://localhost:3333/unidades')
-        const myUnits = await response.json()
+        const myUnits = await getData('/unidades')
         setUnits(myUnits)
         // Get data from /geracoes
-        response = await fetch('http://localhost:3333/geracoes')
-        const myConsumption = await response.json()
-        console.log(myConsumption)
+        const myConsumption = await getData('/geracoes')
         setConsumption(myConsumption)
         // Set active, inactive and average consumption
         setActive(myUnits.filter(item => item.active === 'true').length)
@@ -48,7 +46,7 @@ function Dashboard() {
         )
         //setAvgConsumption(average)
       } catch (error) {
-        setError(error)
+        toast.error('Não foi possível buscar os dados!')
       }
     }
     handleData()

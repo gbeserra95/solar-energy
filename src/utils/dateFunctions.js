@@ -1,3 +1,4 @@
+// Return labels from 12 months before today => 01/2022, 12/2021, 11/2021...
 export const getPastMonths = () => {
   let date = new Date()
   let thisMonth = date.getMonth() + 1

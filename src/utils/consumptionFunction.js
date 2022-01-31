@@ -1,3 +1,4 @@
+// Fiter data by month labels and return the total consumption per month
 export const getMonthlyConsumption = (labels, data) => {
   let monthlyArrays = []
   let monthlyConsumption = []

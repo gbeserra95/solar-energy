@@ -1,12 +1,39 @@
 {
-    "unidades": [
-      {"id": 0, "idUnity": "156", "nickname": "Painel 1", "place": "Rua 5", "brand": "Canadian", "model": "155W", "active": "true"},
-      {"id": 1, "idUnity": "1562", "nickname": "Painel 2", "place": "Rua 15", "brand": "Risen", "model": "100W", "active": "false"},
-      {"id": 2, "idUnity": "243", "nickname": "Painel 22", "place": "Rua 125", "brand": "Aussie", "model": "100W", "active": "false"}
-    ],  
-    "geracoes": [
-      {"id": "156", "date": "03/2022", "consumption": 500},
-      {"id": "157", "date": "03/2022", "consumption": 800},
-      {"id": "1562", "date": "03/2022", "consumption": 700}
-    ] 
+  "unidades": [
+    {
+      "idUnity": "c584d72f-1244-4c26-a385-64f324d4cfdf",
+      "nickname": "as",
+      "place": "as",
+      "brand": "as",
+      "model": "as",
+      "active": "false",
+      "id": 3
+    },
+    {
+      "idUnity": "17cdf833-4dbe-421e-8d4e-ef22f1d2d022",
+      "nickname": "Painel 15",
+      "place": "Rua 15",
+      "brand": "Oi",
+      "model": "120W",
+      "active": "true",
+      "id": 4
+    }
+  ],
+  "geracoes": [
+    {
+      "id": "156",
+      "date": "04/2021",
+      "consumption": 500
+    },
+    {
+      "id": "157",
+      "date": "03/2021",
+      "consumption": 800
+    },
+    {
+      "id": "1562",
+      "date": "03/2021",
+      "consumption": 700
+    }
+  ]
 }
