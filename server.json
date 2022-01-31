@@ -17,6 +17,15 @@
       "model": "120W",
       "active": "true",
       "id": 4
+    },
+    {
+      "idUnity": "7adc6897-8b9d-435f-a2ed-3d628f29e246",
+      "nickname": "Painel 27",
+      "place": "Rua 27",
+      "brand": "Vivo",
+      "model": "120W",
+      "active": "false",
+      "id": 5
     }
   ],
   "geracoes": [
