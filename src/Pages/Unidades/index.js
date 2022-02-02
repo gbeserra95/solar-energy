@@ -23,7 +23,7 @@ import { ButtonContainer } from './styles'
 import { toast } from 'react-toastify'
 
 // API functions
-import { getData } from '../../utils/apiFunctions'
+import { getData } from '../../utils/myAPI'
 
 function Unidades() {
   const [data, setData] = useState([])

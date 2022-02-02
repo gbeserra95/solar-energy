@@ -12,9 +12,9 @@ import Card from '../../components/Card'
 import { CardsContainer } from './styles'
 
 // Utils
-import { getPastMonths } from '../../utils/dateFunctions'
-import { getMonthlyConsumption } from '../../utils/consumptionFunction'
-import { getData } from '../../utils/apiFunctions'
+import { getPastMonths } from '../../utils/myDate'
+import { getMonthlyConsumption } from '../../utils/myConsumption'
+import { getData } from '../../utils/myAPI'
 import { toast } from 'react-toastify'
 
 function Dashboard() {

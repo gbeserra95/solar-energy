@@ -1,48 +1,14 @@
 {
   "unidades": [
     {
-      "idUnity": "c584d72f-1244-4c26-a385-64f324d4cfdf",
-      "nickname": "as",
-      "place": "as",
-      "brand": "as",
-      "model": "as",
-      "active": "false",
-      "id": 3
-    },
-    {
-      "idUnity": "17cdf833-4dbe-421e-8d4e-ef22f1d2d022",
-      "nickname": "Painel 15",
-      "place": "Rua 15",
+      "idUnit": "adcce9c7-6817-4172-a6a3-ed915573c041",
+      "nickname": "Painel 2698",
+      "place": "Rua dos Alfedeiros",
       "brand": "Oi",
       "model": "120W",
       "active": "true",
-      "id": 4
-    },
-    {
-      "idUnity": "7adc6897-8b9d-435f-a2ed-3d628f29e246",
-      "nickname": "Painel 27",
-      "place": "Rua 27",
-      "brand": "Vivo",
-      "model": "120W",
-      "active": "false",
-      "id": 5
+      "id": 1
     }
   ],
-  "geracoes": [
-    {
-      "id": "156",
-      "date": "04/2021",
-      "consumption": 500
-    },
-    {
-      "id": "157",
-      "date": "03/2021",
-      "consumption": 800
-    },
-    {
-      "id": "1562",
-      "date": "03/2021",
-      "consumption": 700
-    }
-  ]
+  "geracoes": []
 }

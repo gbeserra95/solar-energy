@@ -28,7 +28,7 @@ export const updateData = (url, data) => {
     .then(() => {
       toast.success('Unidade atualizada com sucesso!')
     })
-    .cathc(() => {
+    .catch(() => {
       toast.error('Não foi possível atualizar a unidade!')
     })
 }
