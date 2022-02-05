@@ -24,4 +24,17 @@ export const Input = styled.input`
   &:focus {
     border-color: black;
   }
+
+  // Get rid of the arrows from standard number input
+  /* Chrome, Safari, Edge, Opera */
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  &[type='number'] {
+    -moz-appearance: textfield;
+  }
 `

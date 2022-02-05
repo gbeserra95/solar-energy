@@ -46,7 +46,7 @@ function Dashboard() {
         )
         //setAvgConsumption(average)
       } catch (error) {
-        toast.error('Não foi possível buscar os dados!')
+        toast.warning('Não há dados de consumos cadastrados!')
       }
     }
     handleData()

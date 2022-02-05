@@ -21,6 +21,10 @@ export const Form = styled.form`
   justify-content: left;
   gap: 1rem;
   width: 100%;
-  padding: 0.75rem;
   margin: 0.75rem 0;
+`
+
+export const ButtonContainer = styled.div`
+  width: 16rem;
+  margin: 1rem 0;
 `

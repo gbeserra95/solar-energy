@@ -21,3 +21,15 @@ export const getPastMonths = () => {
 
   return pastMonths.reverse()
 }
+
+// Returns date in the MM/YYYY format
+export const formateDate = date => {
+  let thisMonth = date.getMonth() + 1
+  let thisYear = date.getFullYear()
+
+  if (thisMonth < 10) {
+    return `0${thisMonth}/${thisYear}`
+  }
+
+  return `${thisMonth}/${thisYear}`
+}

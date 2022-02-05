@@ -1,7 +1,6 @@
 {
   "unidades": [
     {
-      "idUnit": "cf8da3ed-0145-43a3-b54d-67f694164ed9",
       "nickname": "Painel 17",
       "place": "Ruas dos Alfedeiros",
       "brand": "Schneider Electric",
@@ -10,14 +9,88 @@
       "id": 1
     },
     {
-      "idUnit": "57a3fce0-e5f1-4fed-b493-55ece044ea83",
-      "nickname": "Painel H2EW",
-      "place": "Rua das Magnólias",
-      "brand": "Siemens",
-      "model": "360W",
+      "nickname": "Painel 44",
+      "place": "Rua dos Alfedeiros",
+      "brand": "WEG",
+      "model": "360kW",
       "active": "true",
-      "id": 2
+      "id": 3
+    },
+    {
+      "nickname": "Painel 38",
+      "place": "Rua das Magnólias",
+      "brand": "WEG",
+      "model": "720kW",
+      "active": "true",
+      "id": 4
     }
   ],
-  "geracoes": []
+  "geracoes": [
+    {
+      "idUnit": 1,
+      "date": "02/2022",
+      "consumption": 250,
+      "id": 1
+    },
+    {
+      "idUnit": 3,
+      "date": "02/2022",
+      "consumption": 250,
+      "id": 2
+    },
+    {
+      "idUnit": 4,
+      "date": "02/2022",
+      "consumption": 250,
+      "id": 3
+    },
+    {
+      "idUnit": 1,
+      "date": "09/2021",
+      "consumption": 100,
+      "id": 4
+    },
+    {
+      "idUnit": 1,
+      "date": "07/2021",
+      "consumption": 500,
+      "id": 5
+    },
+    {
+      "idUnit": 3,
+      "date": "11/2021",
+      "consumption": 800,
+      "id": 6
+    },
+    {
+      "idUnit": null,
+      "date": "02/2022",
+      "consumption": 322,
+      "id": 7
+    },
+    {
+      "idUnit": null,
+      "date": "06/2021",
+      "consumption": 900,
+      "id": 8
+    },
+    {
+      "idUnit": null,
+      "date": "06/2021",
+      "consumption": 900,
+      "id": 9
+    },
+    {
+      "idUnit": null,
+      "date": "02/2022",
+      "consumption": 300,
+      "id": 10
+    },
+    {
+      "idUnit": null,
+      "date": "02/2022",
+      "consumption": 300,
+      "id": 11
+    }
+  ]
 }

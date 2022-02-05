@@ -13,8 +13,14 @@ export const ButtonContainer = styled.button`
   font-weight: 700;
   cursor: pointer;
 
-  &:hover {
+  &:hover:enabled {
     filter: brightness(0.8);
     transition: 0.2s;
+  }
+
+  &:disabled {
+    cursor: auto;
+    background-color: lightgray;
+    color: white;
   }
 `

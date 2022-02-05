@@ -15,16 +15,12 @@ import Button from '../Button'
 // Styled-components
 import { Container, SubTitle, Form, ButtonContainer } from './styles'
 
-// Library to generate unique IDs
-import { v4 as uuidv4 } from 'uuid'
-
 // Utils
 import { getData, setData, updateData } from '../../utils/myAPI'
 
 const SIZE = '30rem'
 
 function FormUnidades({ ...props }) {
-  const [idUnit, setIdUnit] = useState('')
   const [nickname, setNickname] = useState('')
   const [place, setPlace] = useState('')
   const [brand, setBrand] = useState('')
@@ -38,7 +34,6 @@ function FormUnidades({ ...props }) {
     event.preventDefault()
     try {
       await setData('/unidades', {
-        idUnit: uuidv4(),
         nickname,
         place,
         brand,
@@ -56,7 +51,6 @@ function FormUnidades({ ...props }) {
     event.preventDefault()
     try {
       await updateData(`/unidades/${props.id}`, {
-        idUnit: idUnit,
         nickname: nickname,
         place: place,
         brand: brand,
@@ -74,7 +68,6 @@ function FormUnidades({ ...props }) {
     async function handleParam() {
       try {
         const response = await getData(`unidades?id=${props.id}`)
-        setIdUnit(response[0].idUnit)
         setNickname(response[0].nickname)
         setPlace(response[0].place)
         setBrand(response[0].brand)
@@ -135,11 +128,29 @@ function FormUnidades({ ...props }) {
         />
         <ButtonContainer>
           {props.id ? (
-            <Button bg="rgba(76, 93, 241, 1)" type="submit">
+            <Button
+              bg="rgba(76, 93, 241, 1)"
+              type="submit"
+              disabled={
+                !nickname.trim() ||
+                !place.trim() ||
+                !brand.trim() ||
+                !model.trim()
+              }
+            >
               Atualizar
             </Button>
           ) : (
-            <Button bg="rgba(76, 93, 241, 1)" type="submit">
+            <Button
+              bg="rgba(76, 93, 241, 1)"
+              type="submit"
+              disabled={
+                !nickname.trim() ||
+                !place.trim() ||
+                !brand.trim() ||
+                !model.trim()
+              }
+            >
               Salvar
             </Button>
           )}
