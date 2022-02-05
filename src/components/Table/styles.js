@@ -21,7 +21,7 @@ export const TableContainer = styled.table`
   border-radius: 10px;
   margin: 0.75rem 0;
   box-shadow: 0px 8px 10px #e8e8e8, -10px 8px 15px #e8e8e8,
-    10px 8px 15px #e8e8e8; ;
+    10px 8px 15px #e8e8e8;
 `
 
 export const THeader = styled.thead`

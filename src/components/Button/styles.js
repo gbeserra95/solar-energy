@@ -8,7 +8,7 @@ export const ButtonContainer = styled.button`
   border: none;
   border-radius: 4px;
   background-color: ${props => props.bg};
-  color: white;
+  color: ${props => (props.color ? props.color : 'white')};
   width: 100%;
   font-weight: 700;
   cursor: pointer;

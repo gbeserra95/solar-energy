@@ -1,13 +1,22 @@
 {
   "unidades": [
     {
-      "idUnit": "adcce9c7-6817-4172-a6a3-ed915573c041",
-      "nickname": "Painel 2698",
-      "place": "Rua dos Alfedeiros",
-      "brand": "Oi",
-      "model": "120W",
+      "idUnit": "cf8da3ed-0145-43a3-b54d-67f694164ed9",
+      "nickname": "Painel 17",
+      "place": "Ruas dos Alfedeiros",
+      "brand": "Schneider Electric",
+      "model": "440W",
       "active": "true",
       "id": 1
+    },
+    {
+      "idUnit": "57a3fce0-e5f1-4fed-b493-55ece044ea83",
+      "nickname": "Painel H2EW",
+      "place": "Rua das Magnólias",
+      "brand": "Siemens",
+      "model": "360W",
+      "active": "true",
+      "id": 2
     }
   ],
   "geracoes": []
