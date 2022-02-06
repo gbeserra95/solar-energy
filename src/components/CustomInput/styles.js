@@ -16,10 +16,12 @@ export const Input = styled.input`
   color: rgba(83, 87, 93, 1);
   font-size: 1rem;
   border: none;
+  background-color: transparent;
 `
 
 export const IconContainer = styled.div`
   margin: auto 0.25rem;
   position: absolute;
   right: 0;
+  z-index: -1;
 `

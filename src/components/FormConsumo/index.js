@@ -21,7 +21,7 @@ function FormConsumo() {
   const [options, setOptions] = useState([])
   const [unit, setUnit] = useState('')
   const [date, setDate] = useState(new Date())
-  const [consumption, setConsumption] = useState(null)
+  const [consumption, setConsumption] = useState('')
 
   useEffect(() => {
     async function handleOptions() {
@@ -50,6 +50,8 @@ function FormConsumo() {
         date: formateDate(date),
         consumption: parseInt(consumption)
       })
+      setConsumption('')
+      setDate(new Date())
     } catch (error) {
       toast.error('Não foi possível buscar os dados!')
     }
@@ -74,6 +76,7 @@ function FormConsumo() {
         <InputText
           label="Total kW gerado:"
           type="number"
+          value={consumption}
           onChange={event => setConsumption(event.target.value)}
         />
         <ButtonContainer>

@@ -17,12 +17,44 @@
       "id": 3
     },
     {
-      "nickname": "Painel 38",
+      "nickname": "Painel 38EH4",
       "place": "Rua das Magnólias",
       "brand": "WEG",
       "model": "720kW",
       "active": "true",
       "id": 4
+    },
+    {
+      "nickname": "Painel H54F",
+      "place": "Rua das Margaridas",
+      "brand": "WEG",
+      "model": "650kW",
+      "active": "false",
+      "id": 6
+    },
+    {
+      "nickname": "Painel 45HP",
+      "place": "Rua da Esperança",
+      "brand": "Siemens",
+      "model": "1100W",
+      "active": "true",
+      "id": 7
+    },
+    {
+      "nickname": "Painel 54",
+      "place": "Rua 54",
+      "brand": "WEG",
+      "model": "500W",
+      "active": "false",
+      "id": 8
+    },
+    {
+      "nickname": "Painel 45W",
+      "place": "Rua 45",
+      "brand": "WEG",
+      "model": "45W",
+      "active": "false",
+      "id": 9
     }
   ],
   "geracoes": [
@@ -91,6 +123,90 @@
       "date": "02/2022",
       "consumption": 300,
       "id": 11
+    },
+    {
+      "idUnit": 4,
+      "date": "08/2021",
+      "consumption": 50,
+      "id": 12
+    },
+    {
+      "idUnit": 5,
+      "date": "09/2021",
+      "consumption": 1200,
+      "id": 13
+    },
+    {
+      "idUnit": null,
+      "date": "08/2021",
+      "consumption": 500,
+      "id": 14
+    },
+    {
+      "idUnit": null,
+      "date": "03/2021",
+      "consumption": 2500,
+      "id": 15
+    },
+    {
+      "idUnit": null,
+      "date": "02/2022",
+      "consumption": 200,
+      "id": 16
+    },
+    {
+      "idUnit": null,
+      "date": "02/2022",
+      "consumption": 500,
+      "id": 17
+    },
+    {
+      "idUnit": null,
+      "date": "02/2022",
+      "consumption": 500,
+      "id": 18
+    },
+    {
+      "idUnit": 3,
+      "date": "06/2021",
+      "consumption": 400,
+      "id": 19
+    },
+    {
+      "idUnit": 3,
+      "date": "02/2022",
+      "consumption": 50,
+      "id": 20
+    },
+    {
+      "idUnit": 4,
+      "date": "02/2022",
+      "consumption": 400,
+      "id": 21
+    },
+    {
+      "idUnit": 4,
+      "date": "02/2022",
+      "consumption": 400,
+      "id": 22
+    },
+    {
+      "idUnit": 4,
+      "date": "01/2022",
+      "consumption": 55,
+      "id": 23
+    },
+    {
+      "idUnit": 3,
+      "date": "01/2022",
+      "consumption": 10,
+      "id": 24
+    },
+    {
+      "idUnit": 6,
+      "date": "05/2021",
+      "consumption": 400,
+      "id": 25
     }
   ]
 }

@@ -14,8 +14,14 @@ registerLocale('pt', pt)
 function InputDate({ label, ...otherProps }) {
   return (
     <InputContainer>
+      <style>
+        {`.date-picker input {
+          width: 100%
+          }`}
+      </style>
       <Label>{label}</Label>
       <DatePicker
+        wrapperClassName="date-picker"
         dateFormat="MM/yyyy"
         showMonthYearPicker
         showFullMonthYearPicker
