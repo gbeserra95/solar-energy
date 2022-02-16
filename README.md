@@ -1,5 +1,6 @@
 # DEVinHouse Solar Energy
-[Screenshot from 2022-02-16 17-15-22](https://user-images.githubusercontent.com/47508755/154350943-cb452113-90a4-4493-8ec8-aeb0a8bbf4fd.png)
+
+![Logo](https://user-images.githubusercontent.com/47508755/154355253-104238e1-f9aa-448d-9c2f-6ac650ed0d62.svg)
 
 ## Project Description
 This project is part of my studies at [SENAI's DEVinHouse](https://cadastro.sc.senai.br/l/5yRQf0ABF1174) program and is about a Solar Energy Management Application developed in [React.js](https://reactjs.org/).
@@ -48,6 +49,7 @@ At the consumption page, you can register a new consumption to a specific unit.
 
 ## Author
 Created by [Gabriel Beserra](https://github.com/gbeserra95)
+
 Feel free to contact me!
 <div style="display: flex;">
   <a href="https://www.linkedin.com/in/-gabrielbeserra/" target="_blank">
