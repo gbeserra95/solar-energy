@@ -9,13 +9,10 @@ This project is part of my studies at [SENAI's DEVinHouse](https://cadastro.sc.s
 ```bash
 npm install
 ```
-
-## Run Json server
+## Run
 ```bash
 npm run server
 ```
-
-## Start
 ```bash
 npm start
 ```
