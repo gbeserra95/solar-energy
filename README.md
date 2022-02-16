@@ -1,6 +1,6 @@
 # DEVinHouse Solar Energy
 
-![Logo](https://user-images.githubusercontent.com/47508755/154355253-104238e1-f9aa-448d-9c2f-6ac650ed0d62.svg)
+![Screenshot from 2022-02-16 17-15-35](https://user-images.githubusercontent.com/47508755/154353555-26612183-de1f-44ad-9b0f-18bfdd987c88.png)
 
 ## Project Description
 This project is part of my studies at [SENAI's DEVinHouse](https://cadastro.sc.senai.br/l/5yRQf0ABF1174) program and is about a Solar Energy Management Application developed in [React.js](https://reactjs.org/).
