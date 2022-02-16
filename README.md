@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# DEVinHouse Solar Energy
+[Screenshot from 2022-02-16 17-15-22](https://user-images.githubusercontent.com/47508755/154350943-cb452113-90a4-4493-8ec8-aeb0a8bbf4fd.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+This project is part of my studies at [SENAI's DEVinHouse](https://cadastro.sc.senai.br/l/5yRQf0ABF1174) program and is about a Solar Energy Management Application developed in [React.js](https://reactjs.org/).
 
-## Available Scripts
+## Install
+```bash
+npm install
+```
 
-In the project directory, you can run:
+## Run Json server
+```bash
+npm run server
+```
 
-### `npm start`
+## Start
+```bash
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Application
+Now you can access the application on http://localhost:3000/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
+- [React](https://reactjs.org/)
+- [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
+- [React-Icons](https://react-icons.github.io/react-icons)
+- [React-Datepicker](https://www.npmjs.com/package/react-datepicker)
+- [Styled-Components](https://styled-components.com/)
+- [JSON-Server](https://www.npmjs.com/package/json-server)
+- [Axios](https://axios-http.com/docs/intro)
+- [Chart.js](https://www.chartjs.org/)
+- [React-Hot-Toast](https://github.com/fkhadra/react-toastify)
 
-### `npm test`
+## Walkthrough
+![Screenshot from 2022-02-16 17-13-25](https://user-images.githubusercontent.com/47508755/154353315-afdd0ea1-c7ac-4f9c-846b-876239acf8ef.png)
+At the login page is just styled, you may enter a valid e-mail format and a password greater than 6 characters to log in.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot from 2022-02-16 17-15-35](https://user-images.githubusercontent.com/47508755/154353555-26612183-de1f-44ad-9b0f-18bfdd987c88.png)
+At the dashboard page, you can see the chart that represents the average of units consumption within a year.
 
-### `npm run build`
+![Screenshot from 2022-02-16 17-15-53](https://user-images.githubusercontent.com/47508755/154353591-b93880dd-c5c5-43c9-9a02-e96d8654a1e5.png)
+At the units page, you can see all the registered units, edit and delete them.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot from 2022-02-16 17-16-22](https://user-images.githubusercontent.com/47508755/154353804-b2657c50-7785-4aa5-82b8-c63a65bf0cf9.png)
+At the consumption page, you can register a new consumption to a specific unit.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Created by [Gabriel Beserra](https://github.com/gbeserra95)
+Feel free to contact me!
+<div style="display: flex;">
+  <a href="https://www.linkedin.com/in/-gabrielbeserra/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn logo">
+  </a>  
+</div>
